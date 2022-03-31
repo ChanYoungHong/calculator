@@ -1,3 +1,6 @@
+package homework.lasthomework.server;
+
+
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.util.Random;
@@ -25,7 +28,7 @@ public class SoneDamageCalculate {
         Thread monsterAttack = new Thread(new MonsterAttack(dataOutputStream));
         soldierAttack.start();
         monsterAttack.start();
-        System.out.println("Please write down your code here ");
+        System.out.println("hey please write down youre code buddy");
     }
 
     @SuppressWarnings("all")
